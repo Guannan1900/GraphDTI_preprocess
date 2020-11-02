@@ -16,7 +16,7 @@ In this section, we design a processdure to optimize the graph2vec features gene
 python train_graph2vec.py -data_dir 'data_sampled/'
 ```
 
-> Note: the input data can be available at: [link]
+> Note: the input data ```graph2vec_optimization/``` can be available at: [link]
 
 ## Result
 
