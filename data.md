@@ -26,7 +26,7 @@ The data folder contains 5 subfolders: graph2vec_optimization, feature_integrati
             └── negative
 ```
 
-- graph2vec_optimization -> Graph2vec features with different number of the connected nodes for the target proteins and the same Mol2vec features for the sampled instances used to optimize Graph2vec features for GraphDTI. 
+- graph2vec_optimization -> Graph2vec features with different number(10, 20,...,70) of the connected nodes for the target proteins and the same Mol2vec features of the sampled instances used to optimize Graph2vec features for GraphDTI. 
 - feature_integration_training -> the original features for the training instances 
 - feature_integration_test -> the original features for the test instances
 - training_data -> The pickle files representing feature vectors for all instances in the training dataset used for GraphDTI. 
