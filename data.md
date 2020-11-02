@@ -32,5 +32,5 @@ The data folder contains 5 subfolders: graph2vec_optimization, feature_integrati
 - training_data -> The pickle files representing feature vectors for all instances in the training dataset used for GraphDTI. 
   + name format for the pickle file -> Uni-prot ID_Drug ID_ENSP ID_Signature ID.pkl
   + sturcture of the feature vector -> 300 dimensional ProtVec (index: 0-299), 512 dimensional Bionoi-AE (index: 300-811), 300 dimensional Mol2Vec (index: 812-1111) and 300 dimensional Graph2vec (index: 1112-1411)
-- test_data -> The pickle files representing feature vectors for all instances in the test dataset used for GraphDTI. The format and structure of the pickle file for each instance is the same with the training_data
+- test_data -> The pickle files representing feature vectors for all instances in the test dataset used for GraphDTI. The format and structure of the pickle file for each instance is the same with the ```training_data/```
 
