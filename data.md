@@ -1,23 +1,23 @@
 The data file contains 7 subfolders: data_sampled, training_data, test_data and models. The structure of the data is shown as below:
 ```
     .
-    ├── GraphDTI
-    └── homology_reduced_mols      
-        ├── control
-            ├── fold_1   
-            ├── fold_2
+    └── GraphDTI      
+        ├── graph2vec_optimization
+            ├── 10   
+            ├── 20
             ├── ...
-            └── fold_5
-        ├── heme
-            ├── fold_1   
-            ├── fold_2
-            ├── ...
-            └── fold_5
-        └── nucleotide
-            ├── fold_1   
-            ├── fold_2
-            ├── ...
-            └── fold_5
+            └── 70
+        ├── feature_integration
+            ├── Bionoi-AE   
+            ├── ProtVec
+            ├── Mol2vec
+            └── Graph2vec
+        ├── training_data
+            ├── positive   
+            └── negative
+        └── test_data
+            ├── positive   
+            └── negative
 ```
 
 
