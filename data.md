@@ -1,4 +1,4 @@
-The data file contains 7 subfolders: data_sampled, training_data, test_data and models. The structure of the data is shown as below:
+The data file contains 5 subfolders: graph2vec_optimization, feature_integration_training, feature_integration_test, training_data and test_data. The structure of the data is shown as below:
 ```
     .
     └── GraphDTI      
@@ -7,7 +7,12 @@ The data file contains 7 subfolders: data_sampled, training_data, test_data and 
             ├── 20
             ├── ...
             └── 70
-        ├── feature_integration
+        ├── feature_integration_training
+            ├── Bionoi-AE   
+            ├── ProtVec
+            ├── Mol2vec
+            └── Graph2vec
+        ├── feature_integration_test
             ├── Bionoi-AE   
             ├── ProtVec
             ├── Mol2vec
