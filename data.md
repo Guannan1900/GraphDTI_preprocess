@@ -1,7 +1,9 @@
 The data file contains 7 subfolders: data_sampled, training_data, test_data and models. The structure of the data is shown as below:
+```
     .
-    ├── GraphDTI     
-        ├── Bionoi-AE
+    ├── GraphDTI
+    └── homology_reduced_mols      
+        ├── control
             ├── fold_1   
             ├── fold_2
             ├── ...
@@ -16,6 +18,7 @@ The data file contains 7 subfolders: data_sampled, training_data, test_data and 
             ├── fold_2
             ├── ...
             └── fold_5
+```
 
 
 The training_data fold contains feature vectors for all instances in the training dataset. The feature vector for each instance is represented as a pickle file.
