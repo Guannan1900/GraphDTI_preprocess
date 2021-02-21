@@ -10,6 +10,7 @@ The details of the preprocess of our GraphDTI is provided here.This procedure is
 - feature selection: select the optimal features for GraphDTI in order to mitigate the overfitting problem.
 - clustering: design a cluster-based split protocol for cross-validation.
 
-## Citation
+If you find this tool useful, please cite our paper :)
+
 
 
