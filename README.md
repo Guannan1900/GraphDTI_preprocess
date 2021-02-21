@@ -1,7 +1,7 @@
 # GraphDTI_preprocess
 
 ## Description
-The details of the preprocess of our GraphDTI is provided here.This procedure is used specifically for the *GraphDTI* project (https://github.com/Guannan1900/GraphDTI). 
+The details of the preprocess of GraphDTI is provided here.This procedure is used specifically for the *GraphDTI* project (https://github.com/Guannan1900/GraphDTI). 
 
 ## Folders
 - graph2vec generation: generate the Graph2vec features of the target proteins. Note that the Graph2vec features is used for *GraphDTI* project.
