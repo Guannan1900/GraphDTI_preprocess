@@ -2,7 +2,14 @@
 The data folder for GraphDTI contains 5 subfolders: ```graph2vec_optimization/```, ```feature_integration_training/```, ```feature_integration_test/```, ```training_data/``` and ```test_data/```. The structure of the data is shown as below:
 ```
     .
-    └── GraphDTI      
+    └── GraphDTI 
+        ├── graph2vec_generation
+            ├── training
+               ├── Bionoi-AE   
+               ├── ProtVec
+               ├── Mol2vec
+               └── Graph2vec
+            └── test
         ├── graph2vec_optimization
             ├── 10   
             ├── 20
