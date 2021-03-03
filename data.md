@@ -5,10 +5,6 @@ The data folder for GraphDTI contains 5 subfolders: ```graph2vec_optimization/``
     └── GraphDTI 
         ├── graph2vec_generation
             ├── training
-               ├── Bionoi-AE   
-               ├── ProtVec
-               ├── Mol2vec
-               └── Graph2vec
             └── test
         ├── graph2vec_optimization
             ├── 10   
