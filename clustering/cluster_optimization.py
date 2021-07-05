@@ -30,19 +30,19 @@ def calculate_silscore(data, klist, option):
     :return: Silhouette Coefficient
     """
     if option == 'scaled_PMD':
-        metrics = 'precomputed'
+        method = 'precomputed'
     elif option == 'original_PMD':
-        metrics = 'precomputed'
+        method = 'precomputed'
     elif option == 'features':
-        metrics = 'euclidean'
-    print(metrics)
+        method = 'euclidean'
+    print(method)
     SSE = []
     sils = []
     for k in klist:
-        kmedoids = KMedoids(n_clusters=k, init='k-medoids++', metric=metrics).fit(data)
+        kmedoids = KMedoids(n_clusters=k, init='k-medoids++', metric=method).fit(data)
         pred_clusters = kmedoids.labels_
         # SSE.append(kmedoids.inertia_)
-        sil_score = metrics.silhouette_score(data, kmedoids.labels_, metric=metrics)
+        sil_score = metrics.silhouette_score(data, kmedoids.labels_, metric=method)
         # print(sil_score)
         sils.append(sil_score)
 
